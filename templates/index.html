@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>SnapClass | Smart Attendance System</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename = 'css/styles.css')}}">
+        <link rel="icon" type="image/png" href="{{ url_for('static', filename = 'img/logo.png')}}">
+
+    </head>
+        <body>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename = 'img/logo.png')}}" style="height: 32px" alt="SnapClass Logo">
+                    <div class="logo-text">SnapClass</div>
+                </div>
+
+                <div class="nav-links">
+                    <a href="#">Home</a>
+                    <a href="#features">Features</a>
+                    <a href="#journey">Journey</a>
+                    <a href="#stack">Tech Stack</a>
+                </div>
+
+                <div class="nav-cta">
+                    <a href="https://face-n-voice-attendance.streamlit.app/" class="btn-pill">
+                        Start AI Attendance
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z" clip-rule="evenodd"></path></svg>
+                    </a>
+                </div>  
+            </nav>
+
+            <header class="hero">
+                <div class="badge">
+                    Welcome to SnapClass
+                </div>
+
+                <h1>AI Powered<br>Attendance <span>System</span></h1>
+
+                <p>Revolutionizing th classroom with next-gen computer vision and voice biometrics. Trusted by educators for speed, accuracy, and security.</p>
+
+                <div class="hero-actions">
+                    <a href="https://face-n-voice-attendance.streamlit.app/" class = "btn-cta">
+                        Start AI Attendance
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z" clip-rule="evenodd"></path></svg>
+                     </a>
+
+                     <a href="journey" class = "link-action">Explore Journey</a>
+                </div>
+
+                <div class = "floating-card card-left">
+                    <div class = "card-img">
+                        <img src="{{ url_for('static', filename = 'img/demo/snap-teacher-flow-5.2-photo-attendance.png')}}" alt="landing img 1">
+                    </div>
+                </div>
+
+                <div class = "floating-card card-right">
+                    <div class = "card-img">
+                        <img src="{{ url_for('static', filename = 'img/demo/snap-landing.png')}}" alt="landing img 2">
+                    </div>
+                </div>
+
+            </header>
+
+        </body>
+
+</html>
