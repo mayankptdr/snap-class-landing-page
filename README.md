@@ -100,7 +100,7 @@ This landing page was designed to:
 
 ## 📊 Attendance Reports
 
-![Attendance Reports](static/img/demo/snap-teacher-flow-6-attendance-reports.png)
+![Attendance Reports](static/img/demo/snap-teacher-flow-5-see-stored-record.png)
 
 ---
 
